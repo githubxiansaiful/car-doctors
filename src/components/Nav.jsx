@@ -1,3 +1,5 @@
+import LoginButton from "./LoginButton";
+
 const Nav = () => {
     return <div className="main-header">
         <div className="navbar bg-base-100 shadow-sm">
@@ -38,9 +40,9 @@ const Nav = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <LoginButton />
             </div>
         </div>
-    </div>;
+    </div>;;
 };
 export default Nav;

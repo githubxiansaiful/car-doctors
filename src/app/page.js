@@ -1,8 +1,9 @@
+import UserInfo from "@/components/UserInfo";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-200 min-h-[700px]">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Hello there</h1>
@@ -11,6 +12,7 @@ export default function Home() {
             quasi. In deleniti eaque aut repudiandae et a id nisi.
           </p>
           <button className="btn btn-primary">Get Started</button>
+          <UserInfo />
         </div>
       </div>
     </div>
